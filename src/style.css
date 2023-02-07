@@ -1,7 +1,11 @@
-body {
-  background: bisque;
+.list-contents,
+.body-content {
+  display: flex;
+  justify-content: space-between;
+  gap: 20px;
+  align-items: start;
 }
 
-.hello {
-  color: red;
+.list-contents {
+  align-items: center;
 }
