@@ -10,11 +10,10 @@ const score = async () => {
       headers: {
         'Content-type': 'application/json; charset=UTF-8',
       },
-    },
+    }
   );
   const addedScore = await response.json();
   return addedScore;
-  // console.log(addedScore);
 };
 
 export default score;
