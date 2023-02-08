@@ -1,6 +1,6 @@
 export const getScore = async () => {
   const response = await fetch(
-    'https://us-central1-js-capstone-backend.cloudfunctions.net/api/games/k9cpJwUktCh3XoogocI2/scores/'
+    'https://us-central1-js-capstone-backend.cloudfunctions.net/api/games/k9cpJwUktCh3XoogocI2/scores/',
   );
   const endScore = await response.json();
   return endScore.result;

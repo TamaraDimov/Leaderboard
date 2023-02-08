@@ -1,4 +1,4 @@
-const theGame = async () => {
+const game = async () => {
   const response = await fetch(
     'https://us-central1-js-capstone-backend.cloudfunctions.net/api/games',
     {
@@ -9,7 +9,7 @@ const theGame = async () => {
       headers: {
         'Content-type': 'application/json; charset=UTF-8',
       },
-    }
+    },
   );
   const results = await response.json();
   return results;
