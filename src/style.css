@@ -1,5 +1,6 @@
 .list-contents,
 .body-content {
+  width: 100%;
   display: flex;
   justify-content: space-between;
   gap: 20px;
@@ -8,4 +9,8 @@
 
 .list-contents {
   align-items: center;
+}
+
+.table-scores > div {
+  display: flex;
 }
