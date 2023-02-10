@@ -79,6 +79,12 @@ After you're finished please remove all the comments and instructions!
 In order to run this project you need to clone the folowing repo:
 https://github.com/TamaraDimov/Leaderboard.git
 
+In this project we use API from the folowwing base link:
+https://us-central1-js-capstone-backend.cloudfunctions.net/api/
+
+For additional steps open the folowing link:
+https://www.notion.so/Leaderboard-API-service-24c0c3c116974ac49488d4eb0267ade3
+
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 <!-- AUTHORS -->
@@ -131,9 +137,9 @@ Many thanks to Microverse who give me the requirements and all the knowledge to 
 
 ## ❓ FAQ (OPTIONAL) <a name="faq"></a>
 
-- **[Question_1]**
+- **WHAT IS API?**
 
-  - [Answer_1]
+  - API stands for application programming interface, which is a set of definitions and protocols for building and integrating application software.They are nothing but a collection of functions that are executable by other functions of the software application
 
 - **[Question_2]**
 
