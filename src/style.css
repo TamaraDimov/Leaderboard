@@ -1,9 +1,24 @@
+* {
+  font-family:
+    'Lucida Sans',
+    'Lucida Sans Regular',
+    'Lucida Grande',
+    'Lucida Sans Unicode',
+    Geneva,
+    Verdana,
+    sans-serif;
+}
+
+.body-content {
+  width: 100vw;
+}
+
 .list-contents,
 .body-content {
   width: 100%;
   display: flex;
-  justify-content: space-between;
-  gap: 20px;
+  justify-content: center;
+  gap: 100px;
   align-items: start;
 }
 
@@ -11,6 +26,38 @@
   align-items: center;
 }
 
-.table-scores > div {
+.table-scores > td {
   display: flex;
+}
+
+.table-scores tr:nth-of-type(even) {
+  background-color: #2e2d2d;
+}
+
+input,
+.table-scores {
+  border: 1.5px solid #2e2d2d;
+  box-shadow: 1px 1px;
+}
+
+.user,
+.score {
+  padding: 0 30px;
+  width: 100px;
+  border-bottom: 1px dotted #2e2d2d;
+}
+
+#refresh-btn,
+#submit-btn {
+  border: 1.5px solid #2e2d2d;
+  box-shadow: 1px 1px;
+  width: 100px;
+  height: 30px;
+  font-weight: bold;
+  margin-top: 5px;
+}
+
+#refresh-btn:hover,
+#submit-btn:hover {
+  font-size: larger;
 }

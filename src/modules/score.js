@@ -13,10 +13,12 @@ export const showScore = async () => {
   table.innerHTML = '';
   data.forEach((value) => {
     const renderData = `
-    <div class="table-scores">
-    <div>${value.user}</div>
-    <div>${value.score}</div>
-    </div>`;
+    <table class="table-scores">
+    <tr id="row">
+    <td class="user">${value.user}</td>
+    <td class="score">${value.score}</td>
+    </tr>
+    </table>`;
     table.insertAdjacentHTML('beforeend', renderData);
   });
 };
